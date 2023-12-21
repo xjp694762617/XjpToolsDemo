@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'XjpToolsDemo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XjpToolsDemo.'
+  s.name             = 'XjpToolsDemo' #项目名称
+  s.version          = '0.0.3' #版本号 与仓库的标签号对应
+  s.summary          = 'Library to limit the lenght of what you input.' #项目简介
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+这是一个工具类欢迎使用
                        DESC
 
-  s.homepage         = 'https://github.com/jianpeng.xu/XjpToolsDemo'
+  s.homepage         = 'https://github.com/xjp694762617/XjpToolsDemo'#Git上项目主页
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jianpeng.xu' => 'jianpeng.xu@dhc.com.cn' }
-  s.source           = { :git => 'https://github.com/jianpeng.xu/XjpToolsDemo.git', :tag => s.version.to_s }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }#开源证书
+  s.author           = { 'jianpeng.xu' => 'jianpeng.xu@dhc.com.cn' }#项目作者
+  s.source           = { :git => 'https://github.com/xjp694762617/XjpToolsDemo', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'XjpToolsDemo/Classes/**/*'
   
