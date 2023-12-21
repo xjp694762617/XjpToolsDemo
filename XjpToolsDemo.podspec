@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XjpToolsDemo' #项目名称
-  s.version          = '0.0.8' #版本号 与仓库的标签号对应
+  s.version          = '0.10.0' #版本号 与仓库的标签号对应
   s.summary          = '这是一个工具类' #项目简介
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 这是一个工具类欢：主要是计算为主，迎使用， 谢谢 ！
                        DESC
 
-  s.homepage         = 'https://github.com/xjp694762617/XjpToolsDemo.git'#Git上项目主页
+  s.homepage         = 'https://github.com/xjp694762617/XjpToolsDemo'#Git上项目主页
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }#开源证书
   s.author           = { 'jianpeng.xu' => 'jianpeng.xu@dhc.com.cn' }#项目作者
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'XjpToolsDemo/Classes/**/*.{h,m}'
+  s.source_files = 'Sources/*'
   
   # s.resource_bundles = {
   #   'XjpToolsDemo' => ['XjpToolsDemo/Assets/*.png']

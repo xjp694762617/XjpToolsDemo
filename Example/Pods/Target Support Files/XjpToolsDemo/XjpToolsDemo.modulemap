@@ -1,6 +1,0 @@
-framework module XjpToolsDemo {
-  umbrella header "XjpToolsDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
