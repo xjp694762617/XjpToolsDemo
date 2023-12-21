@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XjpToolsDemo' #项目名称
-  s.version          = '0.0.6' #版本号 与仓库的标签号对应
+  s.version          = '0.0.7' #版本号 与仓库的标签号对应
   s.summary          = '这是一个工具类' #项目简介
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'XjpToolsDemo/Classes/**/*'
+  s.source_files = 'XjpToolsDemo/Classes/*'
   
   # s.resource_bundles = {
   #   'XjpToolsDemo' => ['XjpToolsDemo/Assets/*.png']
@@ -39,10 +39,4 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
-  # 后添加的
-  # s.github_sources = {
-  #  :git => 'https://github.com/xjp694762617/XjpToolsDemo.git',
-  #  :tag => '0.0.5'
-  # }
 end
