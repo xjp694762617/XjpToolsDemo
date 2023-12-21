@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'XjpToolsDemo/Classes/*'
+  s.source_files = 'XjpToolsDemo/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XjpToolsDemo' => ['XjpToolsDemo/Assets/*.png']
